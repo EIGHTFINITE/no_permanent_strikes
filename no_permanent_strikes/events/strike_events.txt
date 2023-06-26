@@ -332,6 +332,7 @@ strike.4 = {
 		scope:strike_state = {
 			add_modifier = {
 				name = strike_suppression
+				months = normal_modifier_time
 			}
 		}
 	}
@@ -346,6 +347,7 @@ strike.4 = {
 				}
 				add_modifier = {
 					name = mining_scabs_modifier
+					months = normal_modifier_time
 				}
 			}
 			else_if = {
@@ -354,6 +356,7 @@ strike.4 = {
 				}
 				add_modifier = {
 					name = industrial_scabs_modifier
+					months = normal_modifier_time
 				}
 			}
 			else_if = {
@@ -362,6 +365,7 @@ strike.4 = {
 				}
 				add_modifier = {
 					name = railway_scabs_modifier
+					months = normal_modifier_time
 				}
 			}
 		}
